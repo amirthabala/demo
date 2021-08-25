@@ -81,43 +81,42 @@
           style="display: none; margin-left: 25px">Revoke access</button>
   
   <div id="auth-status" style="display: inline; padding-left: 25px">
-    <button id="sign-in-or-out-button"
-          style="margin-left: 25px">Sign In/Authorize</button>
     <div class="container">
-      <div class="title">
-          <h2>Product Form</h2>
-      </div>
-      <div class="d-flex">
-        <form action="" method="">
-        <label>
-          <span for="name">Product Name </span>
-          <input type="text" id="pname">
-        </label>
+  <div class="title">
+      <h2>Product Form</h2>
+      <button>LOGOUT</button>
+  </div>
+  <div class="d-flex">
+    <form action="" method="">
+    <label>
+      <span for="name">Product Name </span>
+      <input type="text" id="pname">
+    </label>
+  
+    <label>
+      <span for="quantity" >Product Quantity</span>
+      <input type="number" id="quantity">
+    </label>
+
+    <label>
+      <span for="pic">Product Picture</span>
       
-        <label>
-          <span for="quantity" >Product Quantity</span>
-          <input type="number" id="quantity">
-        </label>
-    
-        <label>
-          <span for="pic">Product Picture</span>
-          
-        </label>
-        <input  type="file" id="pic">
-     
-        <label>
-          <span for="price" >Product Price</span>
-          <input type="text" id="price" placeholder="(in Rupees)">
-        </label>
-    
-        <button type="button" onclick="store()">Add Product</button>
-    
-      </form>
-    </div>
-    </div>
-    
-    <script src="./js.js"></script>
-    
+    </label>
+    <input  type="file" id="pic">
+ 
+    <label>
+      <span for="price" >Product Price</span>
+      <input type="text" id="price" placeholder="(in Rupees)">
+    </label>
+
+    <button type="button" onclick="store()">Add Product</button>
+
+  </form>
+</div>
+</div>
+
+<script src="./js.js"></script>
+
   </div><hr>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
