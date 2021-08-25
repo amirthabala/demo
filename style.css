@@ -124,7 +124,7 @@ p{
   padding-left: 25px;
 }
 
-.button p{
+.container .button p{
   width: 170px;
   margin-left: 500px;
   margin-top: 10px;
@@ -136,7 +136,7 @@ p{
   font-size: 15px;
   font-weight: bold;
 }
-button{
+.container button{
   width: 170px;
   margin-left: 500px;
   margin-top: 10px;
@@ -149,7 +149,7 @@ button{
   font-weight: bold;
 }
 
-button:hover{
+.container button:hover{
   cursor: pointer;
   background: #428a7d;
 }
